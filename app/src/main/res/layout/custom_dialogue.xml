@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="207dp"
+        android:src="@drawable/greencheckbox">
+    </ImageView>
+    <TextView
+        android:id="@+id/TextView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CONGRATULATIONS FOR SHOWING UP TODAY"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="18dp">
+
+    </TextView>
+    <TextView
+        android:id="@+id/TextView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="How is the Android Studio Journey going?"
+        android:gravity="center"
+        android:layout_margin="10dp">
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnFeedback"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="#ff0000"
+            android:text="Send FeedBack" />
+
+        <Button
+            android:id="@+id/btnFantastic"
+            android:layout_width="171dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="#009933"
+            android:text="Fantastic" />
+    </LinearLayout>
+
+</LinearLayout>
